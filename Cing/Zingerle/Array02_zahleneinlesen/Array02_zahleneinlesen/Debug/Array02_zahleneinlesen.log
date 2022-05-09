@@ -1,0 +1,6 @@
+﻿  Quelle.cpp
+Y:\HTL\C\Eigene Projekte\Array02_zahleneinlesen\Array02_zahleneinlesen\Quelle.cpp(5,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+Y:\HTL\C\Eigene Projekte\Array02_zahleneinlesen\Array02_zahleneinlesen\Quelle.cpp(33,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Y:\HTL\C\Eigene Projekte\Array02_zahleneinlesen\Array02_zahleneinlesen\Quelle.cpp(63,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Y:\HTL\C\Eigene Projekte\Array02_zahleneinlesen\Array02_zahleneinlesen\Quelle.cpp(48,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Array02_zahleneinlesen.vcxproj -> Y:\HTL\C\Eigene Projekte\Array02_zahleneinlesen\Debug\Array02_zahleneinlesen.exe

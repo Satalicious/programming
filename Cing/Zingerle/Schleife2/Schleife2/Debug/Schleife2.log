@@ -1,0 +1,3 @@
+﻿  Quelle.cpp
+E:\HAUPTORDNER\C\Eigene Projekte\Schleife2\Schleife2\Quelle.cpp(5,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  Schleife2.vcxproj -> E:\HAUPTORDNER\C\Eigene Projekte\Schleife2\Debug\Schleife2.exe

@@ -1,0 +1,3 @@
+﻿  Quelle.cpp
+E:\HTL\C\Eigene Projekte\KleinsterGemeinsamerTeiler\KleinsterGemeinsamerTeiler\Quelle.cpp(5,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  KleinsterGemeinsamerTeiler.vcxproj -> E:\HTL\C\Eigene Projekte\KleinsterGemeinsamerTeiler\Debug\KleinsterGemeinsamerTeiler.exe

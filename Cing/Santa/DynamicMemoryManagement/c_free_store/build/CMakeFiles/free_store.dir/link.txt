@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -Wall -Wextra CMakeFiles/free_store.dir/main.c.o CMakeFiles/free_store.dir/create_arrays.c.o CMakeFiles/free_store.dir/int_array.c.o -o free_store 

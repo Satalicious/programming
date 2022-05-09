@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "stdio.h": "c",
+        "chrono": "c",
+        "algorithm": "c",
+        "ctype.h": "c",
+        "sstream": "c"
+    }
+}

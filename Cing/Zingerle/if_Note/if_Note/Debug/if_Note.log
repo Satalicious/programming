@@ -1,0 +1,6 @@
+﻿  Quelle.cpp
+E:\HAUPTORDNER\C\Eigene Projekte\if_Note\if_Note\Quelle.cpp(5,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+E:\HAUPTORDNER\C\Eigene Projekte\if_Note\if_Note\Quelle.cpp(10,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : Siehe Deklaration von "scanf"
+E:\HAUPTORDNER\C\Eigene Projekte\if_Note\if_Note\Quelle.cpp(31): warning C4700: Die nicht initialisierte lokale Variable "z" wurde verwendet.
+  if_Note.vcxproj -> E:\HAUPTORDNER\C\Eigene Projekte\if_Note\Debug\if_Note.exe

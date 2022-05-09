@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -Wall -Wextra CMakeFiles/create_arrays_test.dir/create_arrays.c.o CMakeFiles/create_arrays_test.dir/create_arrays_test.c.o -o create_arrays_test  -lcriterion 

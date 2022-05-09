@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -Wall -Wextra CMakeFiles/int_array_test.dir/int_array.c.o CMakeFiles/int_array_test.dir/int_array_test.c.o -o int_array_test  -lcriterion 

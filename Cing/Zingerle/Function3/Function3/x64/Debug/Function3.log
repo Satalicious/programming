@@ -1,0 +1,8 @@
+﻿  Source.cpp
+E:\HTL\C\Zingerle\Eigene Projekte\Function3\Function3\Source.cpp(12,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+E:\HTL\C\Zingerle\Eigene Projekte\Function3\Function3\Source.cpp(14,7): warning C4101: 'zeichen': unreferenced local variable
+E:\HTL\C\Zingerle\Eigene Projekte\Function3\Function3\Source.cpp(13,13): warning C4101: 'y': unreferenced local variable
+E:\HTL\C\Zingerle\Eigene Projekte\Function3\Function3\Source.cpp(13,10): warning C4101: 'x': unreferenced local variable
+  Source1.cpp
+  Generating Code...
+  Function3.vcxproj -> E:\HTL\C\Zingerle\Eigene Projekte\Function3\x64\Debug\Function3.exe

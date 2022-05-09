@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46a8a60a-2fed-4861-8207-a5d559cd826b": {
+      "ProjectGuid": "46a8a60a-2fed-4861-8207-a5d559cd826b",
+      "DisplayName": "FibonacciFolge",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

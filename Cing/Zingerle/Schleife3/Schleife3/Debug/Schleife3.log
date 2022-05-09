@@ -1,0 +1,4 @@
+﻿  Quelle.cpp
+E:\HAUPTORDNER\C\Eigene Projekte\Schleife3\Schleife3\Quelle.cpp(6,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+E:\HAUPTORDNER\C\Eigene Projekte\Schleife3\Schleife3\Quelle.cpp(15,17): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  Schleife3.vcxproj -> E:\HAUPTORDNER\C\Eigene Projekte\Schleife3\Debug\Schleife3.exe

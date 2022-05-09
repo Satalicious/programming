@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ee2b865a-b87b-4241-984e-79a4bb498f26": {
+      "ProjectGuid": "ee2b865a-b87b-4241-984e-79a4bb498f26",
+      "DisplayName": "Determine Prefix",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

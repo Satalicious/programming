@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\mathi\Documents\GitHub\C\Santa\exercise 3\Count Matching Elements\Count Matching Elements\Source.cpp(17,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\mathi\Documents\GitHub\C\Santa\exercise 3\Count Matching Elements\Count Matching Elements\Source.cpp(18,61): warning C4101: 'number': unreferenced local variable
+C:\Users\mathi\Documents\GitHub\C\Santa\exercise 3\Count Matching Elements\Count Matching Elements\Source.cpp(18,50): warning C4101: 'dimension': unreferenced local variable
+  Count Matching Elements.vcxproj -> C:\Users\mathi\Documents\GitHub\C\Santa\exercise 3\Count Matching Elements\x64\Debug\Count Matching Elements.exe

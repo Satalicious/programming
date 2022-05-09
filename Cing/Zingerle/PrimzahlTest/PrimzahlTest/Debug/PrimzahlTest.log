@@ -1,0 +1,7 @@
+﻿  functions.cpp
+E:\HTL\C\Zingerle\Eigene Projekte\PrimzahlTest\PrimzahlTest\functions.cpp(27,11): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  Quelle.cpp
+E:\HTL\C\Zingerle\Eigene Projekte\PrimzahlTest\PrimzahlTest\Quelle.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+E:\HTL\C\Zingerle\Eigene Projekte\PrimzahlTest\PrimzahlTest\Quelle.cpp(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  PrimzahlTest.vcxproj -> E:\HTL\C\Zingerle\Eigene Projekte\PrimzahlTest\Debug\PrimzahlTest.exe

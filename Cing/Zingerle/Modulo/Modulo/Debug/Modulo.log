@@ -1,0 +1,7 @@
+﻿  Modulko.cpp
+E:\HTL\C\Eigene Projekte\Modulo\Modulo\Modulko.cpp(11,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+E:\HTL\C\Eigene Projekte\Modulo\Modulo\Modulko.cpp(16,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : Siehe Deklaration von "scanf"
+E:\HTL\C\Eigene Projekte\Modulo\Modulo\Modulko.cpp(18,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : Siehe Deklaration von "scanf"
+  Modulo.vcxproj -> E:\HTL\C\Eigene Projekte\Modulo\Debug\Modulo.exe

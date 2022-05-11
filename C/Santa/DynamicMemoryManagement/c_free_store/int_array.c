@@ -12,7 +12,7 @@ struct intarray {
 
 // create new empty IntArray for 100 elements
 IntArray* ia_create() {
-    IntArray array = array[100];
+    //IntArray array = array[100];
 }
 // create new array with `count` zeros
 IntArray* ia_zeros(size_t count) {}

@@ -26,7 +26,36 @@ CMakeFiles/int_array_test.dir/int_array.c.o: ../int_array.c \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   ../int_array.h \
-  ../create_arrays.h
+  ../create_arrays.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
 
 CMakeFiles/int_array_test.dir/int_array_test.c.o: ../int_array_test.c \
   /usr/include/stdc-predef.h \
@@ -202,25 +231,27 @@ CMakeFiles/int_array_test.dir/int_array_test.c.o: ../int_array_test.c \
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/local/include/criterion/types.h:
-
 /usr/include/strings.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/float.h:
 
-../int_array_test.c:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/local/include/criterion/internal/designated-initializer-compat.h:
+
+/usr/local/include/criterion/internal/hooks.h:
+
+/usr/local/include/criterion/internal/asprintf-compat.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
+
+/usr/local/include/criterion/internal/common.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 ../int_array.h:
 
@@ -240,19 +271,9 @@ CMakeFiles/int_array_test.dir/int_array_test.c.o: ../int_array_test.c \
 
 /usr/include/features.h:
 
-/usr/local/include/criterion/internal/common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
 /usr/local/include/criterion/abort.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/local/include/criterion/criterion.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -262,9 +283,9 @@ CMakeFiles/int_array_test.dir/int_array_test.c.o: ../int_array_test.c \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -280,21 +301,25 @@ CMakeFiles/int_array_test.dir/int_array_test.c.o: ../int_array_test.c \
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/local/include/criterion/internal/preprocess.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
 ../int_array.c:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/local/include/criterion/hooks.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/local/include/criterion/assert.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
 
 ../create_arrays.h:
 
@@ -314,49 +339,31 @@ CMakeFiles/int_array_test.dir/int_array_test.c.o: ../int_array_test.c \
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/float.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
 
-/usr/local/include/criterion/alloc.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
-
-/usr/local/include/criterion/assert.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/local/include/criterion/internal/preprocess.h:
-
-/usr/local/include/criterion/internal/designated-initializer-compat.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/local/include/criterion/internal/hooks.h:
-
-/usr/local/include/criterion/internal/asprintf-compat.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/local/include/criterion/types.h:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/local/include/criterion/hooks.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -368,8 +375,30 @@ CMakeFiles/int_array_test.dir/int_array_test.c.o: ../int_array_test.c \
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+../int_array_test.c:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/local/include/criterion/criterion.h:
+
+/usr/local/include/criterion/alloc.h:

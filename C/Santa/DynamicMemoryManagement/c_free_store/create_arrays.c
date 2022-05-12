@@ -13,7 +13,7 @@ int* zeros(int count) {
 }
 
 int* ones(int count) { 
-    // malloc bcs it leaves the memory uninitialized - we want to change the 0's to 1's
+    // malloc bcs it leaves the memory uninitialized
     int* array = (int*) malloc(count * sizeof(int));
     if (array == NULL) {
         fprintf(stderr, "malloc %d bytes failed\n", count);
@@ -31,7 +31,7 @@ int* range(int count) {
         fprintf(stderr, "malloc %d bytes failed\n", count);
         exit(EXIT_FAILURE);
     }
-    for (int i=0; i < count; i++) {     // @santa's doc: count -1 ?? why?
+    for (int i=0; i < count; i++) {    
         array[i] = i;
     }
     return array;

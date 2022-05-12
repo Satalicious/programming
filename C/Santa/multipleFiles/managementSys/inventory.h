@@ -6,7 +6,7 @@
 
 typedef struct {
     char type[80];
-    int quantity;
+    unsigned int quantity;
     double value;
     char unit[20];
 } Item;

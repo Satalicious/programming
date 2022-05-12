@@ -1,5 +1,6 @@
 
-#include <stdio.h>
+#include "inventory.h"
+#include "interface.h"
 
 int main() {
     cli();

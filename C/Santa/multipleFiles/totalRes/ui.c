@@ -6,25 +6,21 @@
 // read the resistances from stdin
 // also ask the user whether a parallel or series connection is used
 // return a new circuit struct containing the above data
-Circuit read_circuit() {
-    Circuit res;
-    char resistance[100];
-    char connection;
-    int temp;
+Circuit read_circuit(Circuit c) {
+    char temp;
     for (int i = 0; i < 3; i++) {
-        printf("Enter resistance of Resistor %d: ",i);
-        fgets(resistance, 100, stdin);
-        sscanf(resistance, "%lf", &res.resistors[i]);
+        printf("Enter resistance of Resistor %d.: ",i+1);
+        scanf(" %lf", &c.resistor[i]);
     }
-    printf("\nSerial? (y) Parallel? (n)");
-    fgets(connection, 100, stdin);
-    scanf("%d",&temp);
+    printf("\nSerial? (y) or Parallel? (n): ");
+    scanf(" %c",&temp);
     if (temp == 'y')
-        res.isSerial = true;
+        c.isSerial = true;
     else
-        res.isSerial = false;
+        c.isSerial = false;
 
-    return res;
+    //fputs(c.isSerial ? "true\n" : "false\n", stdout);
+    return c;
 }
 // print a visual representation of the struct; this can be something like
 // -[220Ω]-[330Ω]-[220Ω]- and
@@ -33,13 +29,24 @@ Circuit read_circuit() {
 // ─┼[330Ω]┼─
 //  └[220Ω]┘
 void draw_circuit(Circuit c) {
-    printf(" ┌[%lfΩ]┐",c.resistors[0]);
-    printf("─┼[%lfΩ]┼─",c.resistors[1]);
-    printf(" └[%lfΩ]┘",c.resistors[2]);
+    printf("\n ┌[%.0lfΩ]┐\n",c.resistor[0]);
+    printf("─┼[%.0lfΩ]┼─\n",c.resistor[1]);
+    printf(" └[%.0lfΩ]┘\n",c.resistor[2]);
 }
 // print the values of the resistors, whether a parallel or series connection
 // is used and the total resistance
-void print_circuit(Circuit c);
+void print_circuit(Circuit c) {
+    if (c.isSerial)
+        printf("\n ==============================\nSerial Circuit\n");
+    else
+        printf("\n ==============================\nParallel Circuit\n");
+
+    for (int i = 0; i < 3 ; i++) {
+            printf("\n%d. resistor: %.3lfΩ",i+1,c.resistor[i]);
+    }
+
+    printf("\n==> total resistance: %.4lfΩ\n",calc_circuit_resistance(c));
+}
 
 
 

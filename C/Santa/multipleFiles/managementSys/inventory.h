@@ -2,6 +2,7 @@
 #ifndef INVENTORY_H
 #define INVENTORY_H
 #include <stdlib.h>
+#include <stdio.h>
 
 typedef struct {
     char type[80];

@@ -19,7 +19,6 @@ Circuit read_circuit(Circuit c) {
     else
         c.isSerial = false;
 
-    //fputs(c.isSerial ? "true\n" : "false\n", stdout);
     return c;
 }
 // print a visual representation of the struct; this can be something like
@@ -29,22 +28,25 @@ Circuit read_circuit(Circuit c) {
 // ─┼[330Ω]┼─
 //  └[220Ω]┘
 void draw_circuit(Circuit c) {
-    printf("\n ┌[%.0lfΩ]┐\n",c.resistor[0]);
-    printf("─┼[%.0lfΩ]┼─\n",c.resistor[1]);
-    printf(" └[%.0lfΩ]┘\n",c.resistor[2]);
+    if (c.isSerial) {
+        printf("\n-[%lfΩ]-[%lfΩ]-[%lfΩ]-",c.resistor[0],c.resistor[1],c.resistor[2]);
+    } else {
+        printf("\n ┌[%.0lfΩ]┐\n",c.resistor[0]);
+        printf("─┼[%.0lfΩ]┼─\n",c.resistor[1]);
+        printf(" └[%.0lfΩ]┘\n",c.resistor[2]);
+    }
 }
 // print the values of the resistors, whether a parallel or series connection
 // is used and the total resistance
 void print_circuit(Circuit c) {
     if (c.isSerial)
-        printf("\n ==============================\nSerial Circuit\n");
+        printf("\n ===================================\nSerial Circuit\n");
     else
-        printf("\n ==============================\nParallel Circuit\n");
+        printf("\n ===================================\nParallel Circuit\n");
 
     for (int i = 0; i < 3 ; i++) {
             printf("\n%d. resistor: %.3lfΩ",i+1,c.resistor[i]);
     }
-
     printf("\n==> total resistance: %.4lfΩ\n",calc_circuit_resistance(c));
 }
 

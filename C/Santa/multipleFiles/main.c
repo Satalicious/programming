@@ -1,8 +1,6 @@
 
-/* main.c */
-// create at least two different circuits (one parallel and one serial)
-// and use both draw_circuit(.) and print_circuit(.) on each of them
-
+#include "inventory.h"
+#include "interface.h"
 #include "circuit.h"
 #include "ui.h"
 
@@ -17,5 +15,6 @@ int main() {
     draw_circuit(one);
     print_circuit(two);
     draw_circuit(two);
+    cli();
     return 0;
 }

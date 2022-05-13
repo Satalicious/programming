@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/sata/repos/C/Santa/multipleFiles'
+gcc -std=c99 main.c circuit.c ui.c inventory.c interface.c -o main.o
+make: Leaving directory '/home/sata/repos/C/Santa/multipleFiles'
+ 

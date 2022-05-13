@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -Wall -Wextra CMakeFiles/free_store.dir/main.c.o CMakeFiles/free_store.dir/circuit.c.o CMakeFiles/free_store.dir/ui.c.o CMakeFiles/free_store.dir/inventory.c.o CMakeFiles/free_store.dir/interface.c.o -o free_store 

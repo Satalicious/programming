@@ -1,0 +1,3 @@
+/home/sata/repos/C/Santa/multipleFiles/build/CMakeFiles/multipleSource.dir
+/home/sata/repos/C/Santa/multipleFiles/build/CMakeFiles/edit_cache.dir
+/home/sata/repos/C/Santa/multipleFiles/build/CMakeFiles/rebuild_cache.dir

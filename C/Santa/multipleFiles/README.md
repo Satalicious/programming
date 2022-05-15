@@ -4,7 +4,8 @@
 ---
 
 #### First of, make sure that you installed all the dependencies!
-##### gcc & cmake
+- gcc
+- cmake
 
 **HOW TO USE:** simply go to the directory "mulitpleFiles" and enter the following cmd's:
 

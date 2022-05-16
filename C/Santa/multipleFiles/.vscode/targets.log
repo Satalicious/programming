@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri May 13 20:40:25 2022
+# Make data base, printed on Mon May 16 14:14:31 2022
 
 # Variables
 
@@ -55,7 +55,7 @@ PATH = /home/sata/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bi
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-f1826bb7-144a-4acf-954e-96fbc3e35b3f.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-aa267bd2-7386-4fac-a5a9-e38694a69a6f.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -79,7 +79,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = sata
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -155,9 +155,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 2064, inode 65831): 14 files, no impossibilities.
+# . (device 2064, inode 65831): 17 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -271,12 +271,12 @@ ui.c:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 218 B / avg = 8 B
-# current buf: size = 8162 B / used = 218 B / count = 26 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 249 B / avg = 8 B
+# current buf: size = 8162 B / used = 249 B / count = 29 / avg = 8 B
 
-# strcache performance: lookups = 49 / hit rate = 46%
+# strcache performance: lookups = 52 / hit rate = 44%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=1/49=2%
-# Finished Make data base on Fri May 13 20:40:25 2022
+# Load=29/8192=0%, Rehash=0, Collisions=1/52=2%
+# Finished Make data base on Mon May 16 14:14:31 2022
 
  

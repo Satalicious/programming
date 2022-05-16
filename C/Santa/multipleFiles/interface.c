@@ -78,8 +78,8 @@ void cli() {
             case 'r':
                 printf("\n=> total number of resistors: %lu\n",count_resistors(items,count));
                 break;
-            default:
-                exit(EXIT_FAILURE);
+            //default:
+                //exit(EXIT_FAILURE);
         }
     }
 }

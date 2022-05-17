@@ -6,7 +6,7 @@
 #include <stdbool.h>
 
 typedef struct {
-    double resistor[2];
+    double resistor[3];
     bool isSerial;
 } Circuit;
 

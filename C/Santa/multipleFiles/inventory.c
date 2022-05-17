@@ -9,7 +9,7 @@
 size_t count_resistors(Item items[], size_t count) {
     size_t total = 0;
 
-    for (int i = 0; i < count; i++) {
+    for (size_t i = 0; i < count; i++) {
         if (strcmp(items[i].type, "resistor") == 0)
             total += items[i].quantity;
     }
@@ -20,7 +20,7 @@ size_t count_resistors(Item items[], size_t count) {
 size_t count_capacitors(Item items[], size_t count) {
     size_t total = 0;
 
-    for (int i = 0; i < count; i++) {
+    for (size_t i = 0; i < count; i++) {
         if (strcmp(items[i].type, "capacitor") == 0)
             total += items[i].quantity;
     }

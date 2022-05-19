@@ -52,7 +52,7 @@ void cli() {
     char cmd;
     Item items[100];
     size_t count = 0, n = 0;
-    printf("\n===========================================\n");
+    printf("\n===================================================\n");
     printf("\nWelcome to the Command Line Interface! Enter your command: ");
     while (fgets(input, sizeof input, stdin)) {
         sscanf(input,"%c %lu",&cmd,&n);
@@ -67,7 +67,10 @@ void cli() {
                 exit(EXIT_SUCCESS);
             case 'i':
                 if (n > count) {
-                    printf("=> not enough items in array! type `l` to show the list of items\n");
+                    printf("=> not enough items in array! only %lu items in array.\n",n-1);
+                    break;
+                } else if (n == 0) {
+                    printf("you just found an easteregg. there is nothing at index 0!\n");
                     break;
                 } else {
                     print_item(items[n-1]);

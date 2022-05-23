@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 17 07:53:42 2022
+# Make data base, printed on Sat May 21 22:53:56 2022
 
 # Variables
 
@@ -17,11 +17,13 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = ELECTRON_RUN_AS_NODE/w:
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # environment
 VSCODE_LOG_NATIVE = false
+# environment
+NVM_INC = /home/sata/.nvm/versions/node/v18.2.0/include/node
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -35,7 +37,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /mnt/c/Users/Mathias/AppData/Local/Programs/Microsoft VS Code/bin/code
+_ = /home/sata/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
 # makefile (from 'makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # 'override' directive
@@ -51,11 +53,13 @@ VSCODE_CWD = /mnt/c/Users/Mathias/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/sata/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Cmder/vendor/conemu-maximus5/ConEmu/Scripts:/mnt/c/Program Files (x86)/Cmder/vendor/conemu-maximus5:/mnt/c/Program Files (x86)/Cmder/vendor/conemu-maximus5/ConEmu:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Mathias/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Mathias/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Mathias/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Mathias/.dotnet/tools:/mnt/c/Users/Mathias/AppData/Roaming/npm:/mnt/c/Users/Mathias/Downloads/java-17-openjdk-17.0.3.0.6-2.win.x86_64/bin:/mnt/c/Users/Mathias/Documents/OpenJDK/bin:/mnt/c/Users/Mathias/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Mathias/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Mathias/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Mathias/.dotnet/tools:/mnt/c/Users/Mathias/AppData/Roaming/npm:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files (x86)/Cmder/vendor/bin:/mnt/c/Program Files (x86)/Cmder:/snap/bin
+PATH = /home/sata/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/home/sata/.nvm/versions/node/v18.2.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Mathias/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Mathias/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Mathias/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Mathias/.dotnet/tools:/mnt/c/Users/Mathias/AppData/Roaming/npm:/mnt/c/Users/Mathias/Downloads/java-17-openjdk-17.0.3.0.6-2.win.x86_64/bin:/mnt/c/Users/Mathias/Documents/OpenJDK/bin:/mnt/c/Users/Mathias/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Mathias/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Mathias/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Mathias/.dotnet/tools:/mnt/c/Users/Mathias/AppData/Roaming/npm:/snap/bin
+# environment
+NVM_BIN = /home/sata/.nvm/versions/node/v18.2.0/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-38ee7988-d094-4e4b-89ab-c28c728ca607.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-c3af606a-16d1-4159-91a0-61ce86f96744.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -69,7 +73,7 @@ PWD = /home/sata/repos/C/Santa/multipleFiles
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/8_interop
+WSL_INTEROP = /run/WSL/491_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -81,6 +85,8 @@ LOGNAME = sata
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
+NVM_CD_FLAGS = 
+# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
@@ -91,7 +97,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 1
+SHLVL = 0
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -99,11 +105,11 @@ USER = sata
 # makefile
 .DEFAULT_GOAL := main
 # environment
-NAME = Code
+NAME = DESKTOP-1O93UHD
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Mathias/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.2
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Mathias/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
 # default
 MAKE_COMMAND := make
 # default
@@ -116,6 +122,8 @@ MAKEFLAGS = pqrR
 MFLAGS = -pqrR
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/sata/.nvm
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -146,10 +154,8 @@ TERM = xterm-256color
 VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
-# environment
-MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=68/1024=7%, Rehash=0, Collisions=4/93=4%
+# Load=71/1024=7%, Rehash=0, Collisions=4/96=4%
 
 # Pattern-specific Variable Values
 
@@ -277,8 +283,9 @@ ui.c:
 # current buf: size = 8162 B / used = 249 B / count = 29 / avg = 8 B
 
 # strcache performance: lookups = 52 / hit rate = 44%
+ 
 # hash-table stats:
 # Load=29/8192=0%, Rehash=0, Collisions=1/52=2%
-# Finished Make data base on Tue May 17 07:53:42 2022
+# Finished Make data base on Sat May 21 22:53:56 2022
 
  

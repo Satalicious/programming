@@ -13,9 +13,6 @@ input and return the total resistance.
 The total resistance can be calculated with this formula:
 	*/
 
-double formula(double* resistance, int n);
-int askuser(double* resistance);
-
 
 double formula(double* resistance, int n)
 {
@@ -42,7 +39,6 @@ int askuser(double* resistance)
 	
 	for (int i = 0; i < n; i++) {
 		scanf("%lf", &resistance[i]);
-
 	}
 	return n;
 }

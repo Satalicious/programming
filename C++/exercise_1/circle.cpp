@@ -3,9 +3,12 @@
 #include <iomanip>
 #include <iostream>
 
-int main(); {
+using std::cout;
+using std::cin;
+
+int main() {
   // TODO: fix this program
-  double radius
+  double radius;
   cout << "Enter a radius: ";
   cin >> radius;
   double area(radius * radius * M_PI);
@@ -13,5 +16,5 @@ int main(); {
   cout << std::setprecision(2) << std::fixed;
   cout << "The circle has an area of " << area << "\n";
   cout << "The perimeter of this circle is " << perimeter << "\n";
-  return 0
+  return 0;
 }

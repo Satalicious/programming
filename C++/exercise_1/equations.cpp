@@ -1,10 +1,17 @@
+/*Equation solver
+Write a function quadratic(a, b, c) that solves quadratic equations. The function does not have to be able to deal with input leading to complex numbers as results. */
+
 #include <cmath>
 #include <iostream>
+#include <iomanip>
 #include <utility>
 
-
 std::pair<double, double> quadratic(double a, double b, double c) {
-  // TODO: implement this function
+  double result1 = 0.0, result2 = 0.0;
+  double discriminant = pow(b,2) - 4 * a * c;
+  result1 = (-b + sqrt(discriminant)) / (2 * a);
+  result2 = (-b - sqrt(discriminant)) / (2 * a);
+  return std::pair<double, double>(result1, result2);
 }
 
 
@@ -18,6 +25,6 @@ int main(int argc, char** argv) {
   double c(std::atof(argv[3]));
 
   std::pair<double, double> result(quadratic(a, b, c));
-  std::cout << "x1: " << result.first << "; x2: " << result.second << "\n";
+  std::cout << "x1: " << std::setprecision(1) << std::fixed << result.first << "; x2: " << std::setprecision(1) << std::fixed << result.second << "\n";
   return 0;
 }

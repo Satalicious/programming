@@ -13,6 +13,7 @@ The euclidean distance between the two points is 6.4031.
 #include <iomanip>
 #include <iostream>
 #include <math.h>
+#include <cmath>
 using std::cout;
 using std::endl;
 using std::cin;
@@ -28,7 +29,7 @@ int main() {
   cin >> x2;
   cout << "Second point's y-coordinate: ";
   cin >> y2;
-  distance = sqrt(quadratic(x1 - x2) + quadratic(y1 - y2));
-  cout << "The euclidean distance between the two points is " << std::setprecision(4) << std::fixed << distance << endl;
+  distance = sqrt(pow(x1 - x2,2) + pow(y1 - y2,2));
+  cout << "The euclidean distance between the two points is " << std::setprecision(4) << std::fixed << distance << "." << endl;
   return 0;
 }

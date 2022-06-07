@@ -3,12 +3,13 @@
 #define INT_ARRAY_H
 #include <stdio.h>
 
-typedef struct intarray IntArray;
-struct intarray {
+//typedef struct intarray IntArray;
+
+typedef struct intarray {
   size_t reserved;  // available storage
   size_t elements;  // current number of elements
   int* array;
-};
+} IntArray;
 
 // create new empty IntArray for 100 elements
 IntArray* ia_create();

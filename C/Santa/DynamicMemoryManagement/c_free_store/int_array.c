@@ -3,7 +3,6 @@
 #include "create_arrays.h"
 #include <stdlib.h>
 
-
 // create new empty IntArray for 100 elements
 IntArray* ia_create() {
   IntArray* dummy = malloc(sizeof(IntArray));
@@ -111,7 +110,7 @@ size_t ia_count(IntArray* ia, int elem) {
  */
 int ia_index(IntArray* ia, size_t index) {
   if (index > ia->elements) {
-    fprintf(stderr, "Index Error, out of bounds\n");
+    fprintf(stderr, "IndexError, out of bounds\n");
     exit(EXIT_FAILURE);
   }
   return ia->array[index];

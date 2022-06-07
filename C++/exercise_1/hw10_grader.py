@@ -12,7 +12,7 @@ from math import hypot, pi
 CPP = 'g++ -std=c++17 -Wall -Wextra -Wconversion'.split()
 FAIL = '\033[91m'
 ENDC = '\033[0m'
-MAX_TOTAL = 9.0
+MAX_TOTAL = 10.0
 
 Test = collections.namedtuple('Test', ['file', 'input', 'expected'])
 
@@ -182,7 +182,7 @@ def main():
     if args.test == 'all':
         print()
         print("{}/{} in total".format(total / len(tests) * MAX_TOTAL,
-                                      MAX_TOTAL))
+                                      MAX_TOTAL-1))
     else:
         print()
         print("{}% passed".format(round(total / len(tests) * 100)))

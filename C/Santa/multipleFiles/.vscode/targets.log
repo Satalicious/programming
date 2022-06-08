@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun  3 09:50:41 2022
+# Make data base, printed on Tue Jun  7 19:24:50 2022
 
 # Variables
 
@@ -57,7 +59,7 @@ NVM_BIN = /home/sata/.nvm/versions/node/v18.2.0/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-9482b3ae-adcc-446e-86a0-251340b722a9.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-12b3eae1-1d39-4f04-a758-6ddb67ccddd3.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -71,9 +73,9 @@ PWD = /home/sata/repos/C/Santa/multipleFiles
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/8_interop
+WSL_INTEROP = /run/WSL/850_interop
 # environment
-WT_SESSION = d670f9d0-d935-40ff-972a-891a2147d5c2
+WT_SESSION = f6e184ec-4c89-46ed-939c-12c72ab9fc11
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -134,6 +136,8 @@ VSCODE_HANDLES_SIGPIPE = true
 WT_PROFILE_ID = {2c4de342-38b7-51cf-b940-2309a097f518}
 # default
 MAKEFILES := 
+# environment
+PROMPT_COMMAND = echo -n \[$(date +%H:%M)\]\ 
 # automatic
 <F = $(notdir $<)
 # environment
@@ -156,8 +160,6 @@ TERM = xterm-256color
 VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
-# environment
-MOTD_SHOWN = update-motd
 # variable set hash-table stats:
 # Load=74/1024=7%, Rehash=0, Collisions=4/99=4%
 
@@ -282,16 +284,14 @@ ui.c:
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
- 
-make: *** No rule to make target 'all'.  Stop.
-
 
 # strcache buffers: 1 (0) / strings = 29 / storage = 249 B / avg = 8 B
 # current buf: size = 8162 B / used = 249 B / count = 29 / avg = 8 B
 
 # strcache performance: lookups = 52 / hit rate = 44%
 # hash-table stats:
+ 
 # Load=29/8192=0%, Rehash=0, Collisions=1/52=2%
-# Finished Make data base on Fri Jun  3 09:50:41 2022
+# Finished Make data base on Tue Jun  7 19:24:50 2022
 
  

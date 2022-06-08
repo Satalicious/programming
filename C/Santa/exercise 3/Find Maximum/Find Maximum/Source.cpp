@@ -1,28 +1,24 @@
 
-
 #include <stdio.h>
 
-void swap(int* xp, int* yp)
+int max(const int *array, int dimension)
 {
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
-
-int max(int arr[], int dimension) {
+    int value = 0;
+    while (dimension--)
     {
-    int i, j;
-    for (i = 0; i < dimension - 1; i++)
-       for (j = 0; j < dimension - i - 1; j++)
-           if (arr[j] > arr[j + 1])
-              swap(&arr[j], &arr[j + 1]);
+        if (*array > value)
+        {
+            value = *array;
+        }
+        array++;
     }
-    return arr[dimension - 1];
+    return value;
 }
 
+int main()
+{
+    int arr[100] = {4, 1, 7, 5, 8, 1, 4, 2, 3, 1, 100};
 
-void main(void) {
-	int arr[100] = { 4, 1, 7, 5, 8, 1, 4, 2, 3, 1, 100 };
-
-	printf("highest number is %d", max(arr,3));
+    printf("highest number is %d\n", max(arr, 10));
+    return 0;
 }

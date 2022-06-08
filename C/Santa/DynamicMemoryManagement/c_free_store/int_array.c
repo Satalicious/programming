@@ -95,7 +95,7 @@ void ia_push_back(IntArray* ia, int elem) {
 
 // return the number of occurrences of `elem` in `ia`
 size_t ia_count(IntArray* ia, int elem) {
-  int cnt = 0;
+  size_t cnt = 0;
   for (int i = 0; i < ia->elements; i++) {
     if (ia->array[i] == elem)
       cnt++;
@@ -178,7 +178,7 @@ IntArray* ia_add(IntArray* first, IntArray* second) {
  * solely use the elements of the longer array for the higher indices.
  */
 IntArray* ia_mul(IntArray* first, IntArray* second) {
-    int index = 0;
+  int index = 0;
   IntArray* dummy = malloc(sizeof(IntArray));
   if (first->elements > second->elements)
     index = first->elements;

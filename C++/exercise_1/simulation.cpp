@@ -24,7 +24,7 @@ double simulate_pi(int iterations) {
   }
 
 /**
- * Shoot a dart at a 2x2 square and return true iif the dart hit inside the
+ * Shoot a dart at a 2x2 square and return true if the dart hit inside the
  * inscribed circle.
  */
 bool shoot() {

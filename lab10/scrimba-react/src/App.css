@@ -1,0 +1,17 @@
+
+
+.background {
+    
+
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 664px;
+    top: 53px;
+    
+    background: #23252C;
+}
+
+.pic {
+    width: 500px;
+}

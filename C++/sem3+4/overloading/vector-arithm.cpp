@@ -6,75 +6,73 @@
 using namespace std;
 
 template <class Type>
-vector<Type> operator+(const vector<Type>& v1, const vector<Type>& v2) {
-    if (v1.size() > v2.size()) {
-        vector<Type> v(v1);
-        auto it = v2.begin();
-            for (auto& e1 : v) {
-                e1+= *it;
-                it++;
-            }
-            return v;
-    } else {
-        vector<Type> v(v2);
-        auto it = v1.begin();
-            for (auto& e1 : v) {
-                e1+= *it;
-                it++;
-            }
-            return v;
-    }
-}
-
-
-template <class Type>
-vector<Type> operator-(const vector<Type>& v1, const vector<Type>& v2) {
-    if (v1.size() > v2.size()) {
-        vector<Type> v(v1);
-        auto it = v2.begin();
-            for (auto& e1 : v) {
-                e1-= *it;
-                it++;
-            }
-            return v;
-    } else {
-        vector<Type> v(v1);
-        auto it = v2.begin();
-        for (auto& e1 : v) {
-            e1-= *it;
-            it++;
-            }
-        while(it != v2.end()) {
-            v.push_back(*it++);
-        }
-        return v;
-        }
-}
-
-template <class Type>
-vector<Type> operator*(const vector<Type>& v1, const vector<Type>& v2) {
-    if (v1.size() != v2.size()) exit(-1);
+vector<Type> operator+(const vector<Type> &v1, const vector<Type> &v2) {
+  if (v1.size() > v2.size()) {
     vector<Type> v(v1);
     auto it = v2.begin();
-    for (auto& e : v) {
-        e*=*it;
-        it++;
+    for (auto &e1 : v) {
+      e1 += *it;
+      it++;
     }
     return v;
+  } else {
+    vector<Type> v(v2);
+    auto it = v1.begin();
+    for (auto &e1 : v) {
+      e1 += *it;
+      it++;
+    }
+    return v;
+  }
 }
 
 template <class Type>
-vector<Type> operator*(const vector<Type>& v1, int x) {
+vector<Type> operator-(const vector<Type> &v1, const vector<Type> &v2) {
+  if (v1.size() > v2.size()) {
     vector<Type> v(v1);
-    for (auto& e : v) {
-        e*=x;
+    auto it = v2.begin();
+    for (auto &e1 : v) {
+      e1 -= *it;
+      it++;
     }
     return v;
+  } else {
+    vector<Type> v(v1);
+    auto it = v2.begin();
+    for (auto &e1 : v) {
+      e1 -= *it;
+      it++;
+    }
+    while (it != v2.end()) {
+      v.push_back(*it++);
+    }
+    return v;
+  }
 }
 
 template <class Type>
-ostream& operator<<(ostream& out, const vector<Type>& v) {
-  for (const auto& e: v) {
+vector<Type> operator*(const vector<Type> &v1, const vector<Type> &v2) {
+  if (v1.size() != v2.size())
+    exit(-1);
+  vector<Type> v(v1);
+  auto it = v2.begin();
+  for (auto &e : v) {
+    e *= *it;
+    it++;
+  }
+  return v;
+}
+
+template <class Type> vector<Type> operator*(const vector<Type> &v1, int x) {
+  vector<Type> v(v1);
+  for (auto &e : v) {
+    e *= x;
+  }
+  return v;
+}
+
+template <class Type> ostream &operator<<(ostream &out, const vector<Type> &v) {
+  for (const auto &e : v) {
     out << e << ", ";
   }
   out << "\b\b "; // two backspace characters to overwrite final ", "
@@ -96,6 +94,6 @@ int main() {
   cout << v5 << endl;
   cout << "SCALAR VECTOR" << endl;
   vector<int> v6 = v1 * 5;
-  cout << v6 << endl; 
+  cout << v6 << endl;
   return 0;
 }

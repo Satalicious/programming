@@ -1,4 +1,5 @@
-#include "circle.cpp"
+#include "circle.hpp"
+#include <iostream>
 
 int main() {
   Circle c;
@@ -12,8 +13,7 @@ int main() {
   std::cout << "=======================" << std::endl;
 
   Circle c3 {3, 3, 3};
-  
-  //c3.radius(3);
+  std::cout << "radius: " << c3.radius() << std::endl;
   std::cout << "circum " << c3.circumference() << std::endl;
   std::cout << "area " << c3.area() << std::endl;
 }

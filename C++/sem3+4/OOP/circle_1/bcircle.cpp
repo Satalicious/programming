@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 class Circle {
 public:
   Circle() = default;  // use the compiler-generated default constructor
@@ -27,4 +28,11 @@ int main() {
   std::cout << "radius: " << c.radius() << std::endl;
   Circle c2 {0, 0, -1};
   std::cout << "c2.radius: " << c2.radius() << std::endl;
+  bool b1 = true;
+  auto b2 = not b1;
+  std::cout << "b2: " << b2 << "b1: " << b1 << std::endl;
+  std::vector<double> numbers = {0, 1, 2, 3, 4, 5};
+  for (auto&i : numbers) {
+    std::cout << i << std::endl;
+  }
 }

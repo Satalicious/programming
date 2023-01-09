@@ -1,4 +1,4 @@
-/* https://study.find-santa.eu/exercises/cpp/operator_overloading/ */
+/* https://study.find-santa.eu/exercises/cpp/operator_overloading */
 
 #include <iostream>
 #include <vector>
@@ -63,7 +63,8 @@ vector<Type> operator*(const vector<Type> &v1, const vector<Type> &v2) {
   return v;
 }
 
-template <class Type> vector<Type> operator*(const vector<Type> &v1, int x) {
+template <class Type> 
+vector<Type> operator*(const vector<Type> &v1, int x) {
   vector<Type> v(v1);
   for (auto &e : v) {
     e *= x;
@@ -71,7 +72,8 @@ template <class Type> vector<Type> operator*(const vector<Type> &v1, int x) {
   return v;
 }
 
-template <class Type> ostream &operator<<(ostream &out, const vector<Type> &v) {
+template <class Type> 
+ostream &operator<<(ostream &out, const vector<Type> &v) {
   for (const auto &e : v) {
     out << e << ", ";
   }

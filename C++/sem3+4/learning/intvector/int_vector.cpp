@@ -6,7 +6,7 @@ namespace ds {
 
 void IntVector::resize(std::size_t new_space) {
   if (new_space <= space_) return;  // never shrink
-  int* new_elements = new int[new_space];       // WHAT ?
+  int* new_elements = new int[new_space];
   std::copy(elements_, elements_ + size_, new_elements);
   delete[] elements_;
   elements_ = new_elements;

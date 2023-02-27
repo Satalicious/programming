@@ -15,10 +15,8 @@ public:
   void radius(double radius);
   
   double area();
-  void area(double area);
   
   double circumference();
-  void circumference(double circumference);
 
 private:
   double radius_ {1.0};  // default value is better than ctor default argument 

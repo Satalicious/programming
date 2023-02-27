@@ -7,7 +7,7 @@ class Account {
         Account(double balance, int accNr, std::string customerName, std::string createDate) : accNr_{accNr}, customerName_{customerName}, createDate_{createDate} {this->balance(balance);};
 
         void balance(double balance);
-        double balance();
+        double getBalance();
         
         void setAccNr(int accNr);
         int getAccNr();
@@ -18,7 +18,10 @@ class Account {
         void setCreateDate(std::string createDate);
         std::string getCreateDate();
 
+        void credit(uint depositAmount);
 
+        uint debit(uint withdrawAmount);
+        void printAccountInfo();
 
     private:
         double balance_ = 0.0;

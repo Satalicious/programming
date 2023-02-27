@@ -52,11 +52,37 @@ vector<Type> operator-(const vector<Type> &v1, const vector<Type> &v2) {
 
 template <class Type>
 vector<Type> operator*(const vector<Type> &v1, const vector<Type> &v2) {
-  if (v1.size() != v2.size())
+/*   if (v1.size() != v2.size())
     exit(-1);
   vector<Type> v(v1);
   auto it = v2.begin();
   for (auto &e : v) {
+    e *= *it;
+    it++;
+  }
+  return v; */
+  
+  if(v1.size() > v2.size()) {
+    vector<Type> v(v1);
+    auto it = v.begin();
+    for(auto &e : v2) {
+      *it *= e;
+      it++;
+    }
+    return v;
+  } else if (v2.size() > v1.size()) {
+      vector<Type> v(v2);
+      auto it = v.begin();
+      for(auto &e : v1) {
+        *it *= e;
+        it++;
+      }
+      return v;
+  }
+
+  vector<Type> v(v1);
+  auto it = v2.begin();
+  for(auto &e : v) {
     e *= *it;
     it++;
   }
@@ -82,8 +108,8 @@ ostream &operator<<(ostream &out, const vector<Type> &v) {
 }
 
 int main() {
-  vector<int> v1{1, 2};
-  vector<int> v2{7, 8};
+  vector<int> v1{1, 2, 5};
+  vector<int> v2{7, 8, 5};
   cout << "v1: " << v1 << ", v2: " << v2 << endl;
   cout << "PLUS OPERATOR" << endl;
   vector<int> v3 = v1 + v2;

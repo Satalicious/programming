@@ -5,7 +5,6 @@ Your class should include four data members to represent the account balance (a 
 
 The class should provide several member functions. Some of which are described below. Remember that you will have to think about other appropriate member functions (think about setter and getter functions!). Member function credit should add an amount to the current balance and store it back into the balance. Member function debit should withdraw money from the Account, modify the balance, and ensure the debit amount does not exceed the Account's balance. If it does, the balance should be left unmodified and the function should print an appropriate message. Member function printAccountInfo should print the current balance, account number, customer name, and date of the account.
 
- 
 
 Once you have designed your Account class. You will need to create the main bank program. Note that you can create the main bank program in the main function or you can try to create another class for the main bank program. The main program needs to display a menu for:
 1.    adding new accounts

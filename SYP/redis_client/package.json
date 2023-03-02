@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "redis": "^4.6.5"
+  },
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "name": "redis_ex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

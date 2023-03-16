@@ -6,6 +6,16 @@
 class MainFrame : public wxFrame {
 public:
   MainFrame(const wxString& title);
+private:
+  wxTextCtrl* textField = nullptr;
+  wxStaticText* label = nullptr;
+  void on_button_clear_clicked(wxCommandEvent& evt);
+  void clear_last_char(wxCommandEvent& evt);
+  void add_char(wxCommandEvent& evt, const char* digit);
+  double calculate(wxCommandEvent& evt, const char* ch);
+  void on_textField_change(wxCommandEvent& evt);
+
+
 };
 
 #endif  // MAINFRAME_HPP

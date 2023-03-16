@@ -35,12 +35,12 @@ Arguments=
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
 Dependency Action=Nothing
 EnvironmentGroup=
-Executable=file:///home/sata/repos/programming/C++/sem4/wx_controls/controls
+Executable=file:///home/sata/repos/programming/c++/sem4/wx_controls/controls
 External Terminal=konsole --noclose --workdir %workdir -e %exe
 Kill Before Executing Again=4194304
 Project Target=
 Use External Terminal=false
-Working Directory=file:///home/sata/repos/programming/C++/sem4/wx_controls
+Working Directory=file:///home/sata/repos/programming/c++/sem4/wx_controls
 isExecutable=true
 
 [Project]
